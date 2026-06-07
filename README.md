@@ -58,23 +58,34 @@ pip install easyocr datasets sentence-transformers opencv-python-headless gradio
 ```
 
 ## 파일 구조
+```
 receipt-classifier/
 ├── src/
-│   ├── preprocess.py         # 이미지 품질 보정
-│   ├── crop_receipt.py       # 배경 제거
-│   ├── ocr.py                # OCR 파이프라인
-│   ├── parser.py             # 텍스트 파싱
-│   ├── classifier.py         # Few-shot 분류기
-│   ├── active_learning.py    # 능동 학습 루프
-│   ├── analyzer.py           # 소비 패턴 분석
-│   ├── cord_to_lmdb.py       # 데이터셋 변환
-│   ├── eval_easyocr.py       # EasyOCR 평가
-│   ├── compare_models.py     # 모델 비교
-│   └── visualize_results.py  # 시각화
-├── data/
-│   └── processed/
-│       └── figures/          # 실험 결과 그래프
+│   ├── preprocess.py
+│   ├── crop_receipt.py
+│   ├── ocr.py
+│   ├── parser.py
+│   ├── classifier.py
+│   ├── active_learning.py
+│   ├── analyzer.py
+│   ├── cord_to_lmdb.py
+│   ├── eval_easyocr.py
+│   ├── compare_models.py
+│   └── visualize_results.py
+├── train/
+│   ├── train.py             ← 학습 코드
+│   ├── dataset.py           ← 데이터 로더
+│   ├── model.py             ← 모델 구조
+│   └── utils.py             ← 유틸리티
+├── logs/
+│   └── log_train.txt        ← 학습 로그
+├── results/
+│   ├── training_curve.png
+│   ├── final_comparison.png
+│   └── comparison.png
 └── README.md
+```
+
 ## 실험 결과
 
 ### 학습 곡선
@@ -87,5 +98,5 @@ receipt-classifier/
 ![comparison](data/processed/figures/comparison.png)
 
 ## Computer Vision 수업 프로젝트
-- 인하대학교
+- 인하공업전문대학
 - 사용 라이브러리: PyTorch
