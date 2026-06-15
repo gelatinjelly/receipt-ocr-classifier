@@ -24,10 +24,6 @@
 
 → 항목 파싱 (줄 그룹핑 + 금액 추출)
 
-→ Few-shot 카테고리 분류 (ko-sroberta)
-
-→ 소비 패턴 분석 + 시각화
-
 ## 모델 구조 (TPS-ResNet-BiLSTM-Attn)
 입력 이미지 (100×32)
 
