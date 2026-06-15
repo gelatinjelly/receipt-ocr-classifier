@@ -45,7 +45,7 @@ def create_lmdb(dataset_split, output_path, max_samples=None):
     """CORD 데이터셋 → LMDB 변환"""
     os.makedirs(output_path, exist_ok=True)
 
-    # 먼저 전체 크기 파악
+    # 전체 크기 파악
     all_crops = []
     print(f"데이터 준비 중...")
 
