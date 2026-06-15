@@ -12,7 +12,7 @@ def preprocess(image: Image.Image) -> Image.Image:
     clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
     enhanced = clahe.apply(gray)
 
-    # 3. 적응형 이진화 (배경 복잡해도 잘 작동)
+    # 3. 적응형 이진화
     binary = cv2.adaptiveThreshold(
         enhanced, 255,
         cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
