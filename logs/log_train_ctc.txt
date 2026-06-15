@@ -1,0 +1,132 @@
+[1/10000] Train loss: 30.04411, Valid loss: 30.47766, Elapsed_time: 2.30146
+Current_accuracy : 0.000, Current_norm_ED  : 0.03
+Best_accuracy    : 0.000, Best_norm_ED     : 0.03
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+total                     | afdfdf                    | 0.0000	False
+croque                    | fs1                       | 0.0000	False
+subtotal                  | rfdfaf91                  | 0.0000	False
+ice                       | 9f9dxxs                   | 0.0000	False
+leng                      | hrfa7a81                  | 0.0000	False
+--------------------------------------------------------------------------------
+[1000/10000] Train loss: 0.96257, Valid loss: 0.14904, Elapsed_time: 91.71823
+Current_accuracy : 88.521, Current_norm_ED  : 0.96
+Best_accuracy    : 88.521, Best_norm_ED     : 0.96
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+7                         | 7                         | 0.9590	True
+paket                     | paket                     | 0.3329	True
+x1                        | x1                        | 0.8256	True
+kolonel                   | kolonel                   | 0.3305	True
+servi                     | seri                      | 0.3016	False
+--------------------------------------------------------------------------------
+[2000/10000] Train loss: 0.05781, Valid loss: 0.10642, Elapsed_time: 177.63874
+Current_accuracy : 93.745, Current_norm_ED  : 0.98
+Best_accuracy    : 93.745, Best_norm_ED     : 0.98
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+subttl                    | subttl                    | 0.2696	True
+french                    | french                    | 0.6117	True
+chicken                   | chicken                   | 0.6254	True
+peanut                    | peanut                    | 0.2686	True
+sub                       | sub                       | 0.7770	True
+--------------------------------------------------------------------------------
+[3000/10000] Train loss: 0.02143, Valid loss: 0.10047, Elapsed_time: 266.74980
+Current_accuracy : 94.555, Current_norm_ED  : 0.98
+Best_accuracy    : 94.555, Best_norm_ED     : 0.98
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+total                     | total                     | 0.6651	True
+sop                       | sop                       | 0.9855	True
+black                     | black                     | 0.5328	True
+wagyu                     | wagyu                     | 0.4631	True
+wheat                     | mheat                     | 0.5439	False
+--------------------------------------------------------------------------------
+[4000/10000] Train loss: 0.00873, Valid loss: 0.07496, Elapsed_time: 355.44628
+Current_accuracy : 95.953, Current_norm_ED  : 0.99
+Best_accuracy    : 95.953, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+1                         | 1                         | 1.0000	True
+del                       | del                       | 0.9982	True
+sub                       | sub                       | 0.8789	True
+tea                       | tea                       | 0.9289	True
+paid                      | paid                      | 0.6940	True
+--------------------------------------------------------------------------------
+[5000/10000] Train loss: 0.00074, Valid loss: 0.07508, Elapsed_time: 447.36140
+Current_accuracy : 96.321, Current_norm_ED  : 0.99
+Best_accuracy    : 96.321, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+vege                      | vege                      | 0.9514	True
+del                       | del                       | 0.9969	True
+5                         | 5                         | 0.9161	True
+1                         | 1                         | 1.0000	True
+beef                      | beef                      | 0.6681	True
+--------------------------------------------------------------------------------
+[6000/10000] Train loss: 0.00013, Valid loss: 0.07676, Elapsed_time: 539.27405
+Current_accuracy : 96.026, Current_norm_ED  : 0.99
+Best_accuracy    : 96.321, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+padang                    | padang                    | 0.5544	True
+lemon                     | lemon                     | 0.9196	True
+cash                      | cash                      | 0.5297	True
+iced                      | iced                      | 0.8791	True
+beef                      | beef                      | 0.6386	True
+--------------------------------------------------------------------------------
+[7000/10000] Train loss: 0.00006, Valid loss: 0.07632, Elapsed_time: 631.55923
+Current_accuracy : 96.174, Current_norm_ED  : 0.99
+Best_accuracy    : 96.321, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+1                         | 1                         | 0.9999	True
+total                     | total                     | 0.7103	True
+gong                      | gong                      | 0.5224	True
+cup                       | cup                       | 0.9689	True
+pepsi                     | pepsi                     | 0.8765	True
+--------------------------------------------------------------------------------
+[8000/10000] Train loss: 0.00004, Valid loss: 0.07694, Elapsed_time: 723.34786
+Current_accuracy : 96.100, Current_norm_ED  : 0.99
+Best_accuracy    : 96.321, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+total                     | total                     | 0.8600	True
+1                         | 1                         | 1.0000	True
+1                         | 1                         | 1.0000	True
+x                         | x                         | 1.0000	True
+cash                      | cash                      | 0.9638	True
+--------------------------------------------------------------------------------
+[9000/10000] Train loss: 0.00003, Valid loss: 0.07816, Elapsed_time: 815.25116
+Current_accuracy : 96.174, Current_norm_ED  : 0.99
+Best_accuracy    : 96.321, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+subtotal                  | subtotal                  | 0.5646	True
+cash                      | cash                      | 0.6498	True
+package                   | package                   | 0.9807	True
+change                    | change                    | 0.6973	True
+1                         | 1                         | 1.0000	True
+--------------------------------------------------------------------------------
+[10000/10000] Train loss: 0.00003, Valid loss: 0.07809, Elapsed_time: 906.47429
+Current_accuracy : 96.247, Current_norm_ED  : 0.99
+Best_accuracy    : 96.321, Best_norm_ED     : 0.99
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+0                         | 0                         | 1.0000	True
+f                         | f                         | 1.0000	True
+item                      | item                      | 0.9952	True
+marinara                  | marinara                  | 0.9517	True
+sayap                     | sayap                     | 0.9836	True
+--------------------------------------------------------------------------------
